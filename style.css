@@ -1,0 +1,34 @@
+.topnav{
+    background-color: rgb(159, 223, 193);
+}
+.topnav a{
+    color: rgb(218, 63, 25);
+    padding: 14px 16px;
+    font-size: 20px;
+    
+}
+.topnav :hover{
+    color: blueviolet;
+    background-color: rgb(103, 172, 134)
+
+}
+.topnav a.active{color: yellow;
+    background-color: beige;
+}
+img{
+    border-radius: 50%;
+    width: 15%
+}
+#myphoto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    color: blueviolet
+    
+    
+}
+body{
+    padding-left: 20px;
+    background-color: rgb(235, 235, 235);
+
+}
