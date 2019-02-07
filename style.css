@@ -1,23 +1,10 @@
-.topnav{
-    background-color: rgb(76, 64, 95);
+
+nav{
+    position: fixed;
+    top: 0;
 }
-.topnav a{
-    color: rgb(255, 255, 255);
-    padding: 20px 22px;
-    font-size: 20px;
-    text-align: center
-    
-}
-.topnav :hover{
-    color: rgb(165, 160, 170);
-    background-color: rgb(72, 72, 82);
 
 
-
-}
-.topnav a.active{color: yellow;
-    background-color: beige;
-}
 img{
     padding-top: 10px;
     border-radius: 50%;
@@ -35,12 +22,15 @@ img{
     
 }
 body{
-    padding: 20px;
+    padding: 40px;
     
     
     background-color: rgb(235, 235, 235);
 
 }
-#headname{
-    font-family: cursive;
+
+
+
+p{font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
