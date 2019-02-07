@@ -1,10 +1,11 @@
 .topnav{
-    background-color: rgb(159, 223, 193);
+    background-color: rgb(76, 64, 95);
 }
 .topnav a{
-    color: rgb(218, 63, 25);
-    padding: 14px 16px;
+    color: rgb(255, 255, 255);
+    padding: 20px 22px;
     font-size: 20px;
+    text-align: center
     
 }
 .topnav :hover{
@@ -16,19 +17,25 @@
     background-color: beige;
 }
 img{
+    padding-top: 10px;
     border-radius: 50%;
     width: 15%
 }
 #myphoto{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    padding: 20px;
+    padding-top: 10px;
+
+    
+
     color: blueviolet
     
     
 }
 body{
-    padding-left: 20px;
+    padding: 20px;
+    
+    
     background-color: rgb(235, 235, 235);
 
 }
