@@ -9,8 +9,10 @@
     
 }
 .topnav :hover{
-    color: blueviolet;
-    background-color: rgb(103, 172, 134)
+    color: rgb(165, 160, 170);
+    background-color: rgb(72, 72, 82);
+
+
 
 }
 .topnav a.active{color: yellow;
