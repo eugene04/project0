@@ -1,7 +1,8 @@
 
-nav{
-    position: fixed;
-    top: 0;
+.pagelink{
+    color: red;
+    font-style: italic
+
 }
 
 
@@ -31,6 +32,17 @@ body{
 
 
 
-p{font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+p,ol{font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 2%
+}
+p::first-letter{
+    font-size: 150%;
+    color: rgb(138, 68, 68);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+@media(max-width:500px){
+    p{
+        font-size: 15px;
+       
 }
