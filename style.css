@@ -1,13 +1,10 @@
 
-<<<<<<< HEAD
 .pagelink{
     color: red;
     font-style: italic
 
 }
-=======
 
->>>>>>> f28f7e91b3c66bfed395a7a5ac0bb3ea8f39cb15
 
 
 img{
@@ -36,11 +33,10 @@ body{
 
 
 
-<<<<<<< HEAD
+
+
+
 p,ol{font-size: 20px;
-=======
-p{font-size: 20px;
->>>>>>> f28f7e91b3c66bfed395a7a5ac0bb3ea8f39cb15
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-indent: 2%
 }
@@ -48,12 +44,11 @@ p::first-letter{
     font-size: 150%;
     color: rgb(138, 68, 68);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-<<<<<<< HEAD
+
 }
 @media(max-width:500px){
     p{
-        font-size: 15px;
+        font-size: 15px;}
        
-=======
->>>>>>> f28f7e91b3c66bfed395a7a5ac0bb3ea8f39cb15
+
 }
