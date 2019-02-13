@@ -31,11 +31,6 @@ body{
 
 }
 
-
-
-
-
-
 p,ol{font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-indent: 2%
@@ -50,5 +45,10 @@ p::first-letter{
     p{
         font-size: 15px;}
        
+
+}
+table,tr,th,td{
+    border: 2px solid;
+    padding:  10px
 
 }
