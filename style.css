@@ -42,8 +42,8 @@ p::first-letter{
 
 }
 @media(max-width:500px){
-    p{
-        font-size: 15px;}
+p{
+        font-size: 70%;}
        
 
 }
