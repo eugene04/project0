@@ -8,9 +8,11 @@
 
 
 img{
-    padding-top: 10px;
+    padding-top: 30px;
     border-radius: 50%;
-    width: 15%
+    width: 15%;
+    
+    
 }
 #myphoto{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -43,10 +45,10 @@ p::first-letter{
 }
 @media(max-width:500px){
 p{
-        font-size: 70%;}
+        font-size: 10px;}
        
-
 }
+
 table,tr,th,td{
     border: 2px solid;
     padding:  10px
