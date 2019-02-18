@@ -1,67 +1,66 @@
-
-.pagelink{
-    color: red;
-    font-style: italic
-
+.pagelink, p::first-letter {
+  color: #8a4444;
 }
 
-
-
-img{
-    padding-top: 30px;
-    border-radius: 50%;
-    width: 15%;
-    
-    
-}
-#myphoto{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    padding-top: 10px;
-
-    
-
-    color: blueviolet
-    
-    
-}
-body{
-    padding: 40px;
-    
-    
-    background-color: rgb(235, 235, 235);
-
+p, ol {
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-indent: 2%;
 }
 
-p,ol{font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-indent: 2%
-}
-p::first-letter{
-    font-size: 150%;
-    color: rgb(138, 68, 68);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-
-}
-@media(max-width:500px){
-p{
-        font-size: 10px;}
-       
+p {
+  color: #4d4d50;
 }
 
-table,tr,th,td{
-    border: 2px solid;
-    padding:  10px
+ol a {
+  color: green;
+}
 
+@media (max-width: 500px) {
+  p {
+    font-size: 10px;
+  }
+}
+
+.pagelink {
+  font-style: italic;
+}
+
+img {
+  padding-top: 30px;
+  border-radius: 50%;
+  width: 15%;
+}
+
+#myphoto {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  color: blueviolet;
+}
+
+body {
+  padding: 40px;
+  background-color: #ebebeb;
+}
+
+p::first-letter {
+  font-size: 100%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table, tr, th, td {
+  border: 2px solid;
+  padding: 10px;
 }
 
 .content-section {
-    background: #ffffff;
-    padding: 10px 20px;
-    border: 1px solid #dddddd;
-    border-radius: 3px;
-    margin-bottom: 20px;
-    position: fixed;
-    top: 100px
-  }
-  
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 100px;
+}
+/*# sourceMappingURL=style.css.map */
